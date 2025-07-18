@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard – BetaClass</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <style>
+    body{margin:0;font-family:Arial;background:#f7f9fc}
+    header{height:56px;background:#fff;display:flex;align-items:center;padding:0 16px;box-shadow:0 1px 4px rgba(0,0,0,.1)}
+    .sidebar{width:220px;background:#1e293b;color:#fff;position:fixed;top:56px;left:0;bottom:0;padding-top:20px}
+    .sidebar a{display:flex;align-items:center;padding:12px 20px;color:#cbd5e1;text-decoration:none}
+    .sidebar a:hover{background:#334155}
+    .main{margin-left:220px;padding:80px 30px 30px}
+    .card{background:#fff;border:1px solid #e2e8f0;border-radius:6px;padding:24px;margin-bottom:20px}
+  </style>
+</head>
+<body>
+<header>
+  <div class="flex-1">Course > Module 1</div>
+  <span class="material-icons mr-4">notifications</span>
+  <span class="material-icons">account_circle</span>
+</header>
+
+<nav class="sidebar">
+  <a href="#"><i class="material-icons mr-2">dashboard</i>Dashboard</a>
+  <a href="#"><i class="material-icons mr-2">school</i>My Courses</a>
+  <a href="#"><i class="material-icons mr-2">forum</i>Community</a>
+  <a href="#"><i class="material-icons mr-2">emoji_events</i>Badges</a>
+  <a href="#"><i class="material-icons mr-2">bar_chart</i>Progress</a>
+</nav>
+
+<main>
+  <div class="card">
+    <h2 class="text-xl mb-2">Welcome, tester!</h2>
+    <p class="mb-4">Here’s your progress bar:</p>
+    <div style="background:#e2e8f0;height:8px;border-radius:4px"><div style="width:30%;background:#00c853;height:8px;border-radius:4px"></div></div>
+    <p class="mt-2 text-sm">30 % complete</p>
+  </div>
+
+  <div class="card">
+    <h2 class="text-xl mb-2">Leaderboard (Top 3)</h2>
+    <ol class="list-decimal list-inside">
+      <li>Aisha – 145 pts</li>
+      <li>John – 120 pts</li>
+      <li>You – 90 pts</li>
+    </ol>
+  </div>
+</main>
+</body>
+</html>
